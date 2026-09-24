@@ -1,0 +1,19 @@
+# Compiled test binaries produced by `go test -c` / profiling runs
+*.test
+
+# Profiles captured by -cpuprofile / -memprofile / -blockprofile
+*.prof
+*.pprof
+*.out
+
+# pprof-generated images
+*.png
+*.svg
+
+# Personal talk-prep notes, not part of the public repo
+CLAUDE.md
+TALK_GUIDE.md
+RECORDING_SCRIPT.md
+
+# Local tool config
+.claude/
